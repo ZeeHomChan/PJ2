@@ -1,0 +1,328 @@
+/* 导航区域 */
+.nav{
+	height: 80px;
+	width: 100%;
+	background: black;
+	
+
+}
+.nav .top_in{
+   width: 1200px;
+   height:100%;
+   background: black;
+   margin:0 auto;
+}
+.nav .top_left{
+	
+	width: 190px;
+	height:100%;
+	float:left;
+	background:black;
+}
+.nav .top_left h1{
+	width:100%;
+	height: 100%;
+	background-image:url(../imges/logo1.png);
+	margin-top:-11px;
+}
+.nav .top_left h1 a {
+	width: 100%;
+	height: 100%;
+   display:inline-block;
+  
+}
+.nav .top_right a{
+	font-size:20px;}
+.nav .top_right{
+	float:right;
+	width:740px;
+	height:100%;
+	background:black;
+}
+.nav .nav_1 li{
+	float:left;
+
+}
+.nav .nav_1 li a{
+	
+	font-weight: bold;
+	color:#fff;
+	line-height: 80px;
+    margin-left:40px;
+}
+.nav .nav_1 li a:hover{
+	color:red;
+}
+
+/* 广告区域 */
+.ad{
+    height: 100%;
+	width: 100%;
+    background: white;
+
+}
+.ad .nav_2{
+	width: 1200px;
+	height: 12px;
+	
+	margin:0 auto;
+
+
+}
+.ad .nav_out{
+	width:100%;
+	height:121px;
+	background:white ;
+	position: absolute;
+	z-index: 998;
+	
+	
+}
+
+
+.ad .nav_2 ul{
+	width: 100%;
+	height:100%;
+	background:white;
+   padding-left: 75px;
+   padding-right: 75px;
+   
+  /* box-sizing:border-box; */
+} 
+.ad .nav_2 ul li{
+    float:left;
+    width:150px;
+    height:100%;
+    background:white;
+   /* border:1px solid #000;
+    box-sizing: border-box; */
+   text-align: center;
+}
+.ad .nav_2 ul li:hover{
+	border-bottom: 2px solid red;
+	box-sizing: border-box;
+   
+}
+.ad .nav_2 ul li p:hover{
+	color:red;
+}
+
+.ad .nav_2 ul li img{
+	width:120px;
+	height:80px;
+	margin-top:15px;
+}
+.ad .nav_2 ul li p{
+   color:#666;
+}
+
+.ad .lunbo{
+	height: 800px;
+	width:100%;
+    background:yellow;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.ad .lunbo img{
+	height:100%;
+	width:100%;
+	margin:0 -100%;
+}
+.ad .lunbo ol{
+	height:20px;
+	width:150px;
+	
+	position: absolute;
+	left:50%;
+	margin-left:-85px;
+	bottom:10px;
+	
+
+}
+.ad .lunbo ol li{
+	 float:left;
+	 width:12px;
+	height:12px;
+	background:white;
+    margin-left:15px;
+   border-radius: 50%;
+   border: 2px solid transparent;/*透明色*/
+   transition:all 0.5s;   /* 延迟0.5秒*/
+
+}
+.ad .lunbo ol li:hover{
+	border: 2px solid red;
+	transform: scale(1.5,1.5); /*扩大1.5倍*/
+
+
+}
+
+
+
+
+.ad .vedio{
+	width: 1200px;
+	height:270px;
+	margin:0 auto;
+	margin-top:10px;
+	background:white;
+
+}
+.ad .vedio ul{
+	width:100%
+	height:100%
+	background: white;
+	display: flex;/*伸缩排版布局，可以调整左右微小距离*/
+	justify-content: space-between;/*伸缩排版*/
+}
+.ad .vedio ul li{
+	width:100%;   /*485*/
+	height:270px;
+	background:white;
+	float:left;
+	text-align: center;
+	overflow: hidden;
+	
+}
+.ad .vedio ul li img{
+	height: 100%;
+	margin:0 -100%;
+}
+.ad .vedio ul li img:hover{
+	transform: scale(1.1,1.1);
+	transition:all 2s;
+
+}
+   
+ .aaa{
+ 	width:100%;
+ 	height:200px;
+ 	background: white;
+ }
+
+
+/* 内容区域 */
+.main{
+	height: 300px;
+	width: 100%;
+	background:white;
+	float:left;
+
+
+}  
+.about{
+ 
+   height:100%;
+   float: left;
+   margin-left:170px;
+   text-align: center;
+   line-height: 35px;
+}
+/*广告区域*/
+        #box {  
+            width: 100%;  
+            height: 100%;  
+            /*padding: 5px;*/  
+            background-color: red;  
+            border: 10px solid #ccc; 
+
+
+            
+            position: relative;
+            /*overflow: hidden;*/  
+             border-size:border-box;
+
+        }  
+        .ad {  
+            width: 2100px;  
+            height: 800px;  
+            position: relative;  
+            overflow:hidden;
+        }  
+        #box img {  
+            width: 100%;  
+            height: 100%;  
+        }  
+        .ad ul li{  
+            width: 1200px;  
+            height: 800px;  
+            overflow: hidden;  
+            float: left;  
+        }  
+        .ad ul {  
+            position: absolute;  
+            left: 0;  
+            top: 0;  
+            width: 8200px;  
+        }  
+        .ad ol {  
+            position: absolute;  
+            right: 10px;  
+            bottom: 10px;  
+            line-height: 20px;  
+            text-align: center;  
+        }  
+        .ad ol li {  
+            width: 20px;  
+            height: 20px;  
+            float: left;  
+            background: ;  
+            border: 1px solid #ccc;  
+            margin-left: 10px;  
+            cursor: pointer;
+            border-radius: 50%; 
+            opacity:1; 
+        }  
+        .ad ol li.current {  
+           
+            border-color:red;  
+        }  
+        .ad ul li.current {  
+            background: red;  
+        }  
+        #arr {  
+            display: none;  
+        }  
+        #arr span {  
+            width: 40px;  
+            height: 40px;  
+            line-height: 40px;  
+            position: absolute;  
+            /*left: 5px;*/  
+            top: 50%;  
+            margin-top: -20px;  
+            background-color: #000;  
+            cursor: pointer;  
+            text-align: center;  
+            font-weight: bold;  
+            font-family: '黑体';  
+            font-size: 30px;  
+            color: #fff;  
+            opacity: 0.3;  
+            border: 1px solid #fff; 
+            border-radius: 50%; 
+        }  
+        #arr #left{  
+            left: 5px;  
+        }  
+        #arr #right {  
+            right: 5px;  
+            /*left: auto;*/  
+        }  
+
+
+/* 底部区域 */
+.footer{
+	height: 630px;
+	width: 100%;
+	background:white;
+
+}
+.footer .fot,.footer {
+	text-align: center;
+}
+.footer a{
+	color:#e95f46;;
+}
+}
